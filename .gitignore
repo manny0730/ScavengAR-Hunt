@@ -110,3 +110,6 @@ InitTestScene*.unity*
 *.aab
 *.ipa
 *.app
+
+# Ignore downloaded package archives
+Packages/*.tgz
