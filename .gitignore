@@ -97,3 +97,16 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+#
+# My Custom Rules for AR Assignment
+#
+
+# Vuforia package files
+/Assets/StreamingAssets/Vuforia/
+
+# Build files
+*.apk
+*.aab
+*.ipa
+*.app
