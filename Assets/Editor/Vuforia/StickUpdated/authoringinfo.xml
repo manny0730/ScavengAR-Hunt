@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.3.1">
+        <ModelTarget name="Stick" targetId="b08131145889457988c48880cd514f1e" version="14.0" toolVersion="v7.3.1" bbox="-0.0449935 -0.2775 -0.0174281 -0.0101373 0.2813 0.0174281" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Stick" assemblyId="828e4b63cee44bc5b24c1bf347dfe192">
+        <Part name="Stick" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

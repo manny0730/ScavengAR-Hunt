@@ -197,16 +197,16 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Eous
+  mTrackableName: Stick
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Eous.xml
-  mBaseSize: 0.0315044
-  mAspectRatioXY: 1.3445392
-  mAspectRatioXZ: 0.69983524
+  mDataSetPath: Vuforia/StickUpdated.xml
+  mBaseSize: 0.0348562
+  mAspectRatioXY: 16.03158
+  mAspectRatioXZ: 1
   mShowBoundingBox: 0
   mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.0529971, y: -0.0204543, z: -0.0123523}
-  mBBoxMax: {x: -0.0214927, y: 0.0219046, z: 0.00969559}
+  mBBoxMin: {x: -0.0449935, y: -0.2775, z: -0.0174281}
+  mBBoxMax: {x: -0.0101373, y: 0.2813, z: 0.0174281}
   mPreviewImage: {fileID: 0}
   mEnhanceRuntimeDetection: 0
   m3DGuideViewModel: {fileID: 0}
@@ -214,9 +214,9 @@ MonoBehaviour:
   mGuideViewDisplayMode: 0
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
-  mLength: 0.0315044
-  mWidth: 0.0423589
-  mHeight: 0.022047888
+  mLength: 0.0348562
+  mWidth: 0.5588
+  mHeight: 0.0348562
   m2DGuideViewMaterials: []
   m3DGuideViewMaterials: []
   mSelectedGuideView: 
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 400032479}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Eous
-  mDatasetName: Vuforia/Eous.xml
+  mTargetName: Stick
+  mDatasetName: Vuforia/StickUpdated.xml
   mCastedBehaviour: {fileID: 400032479}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &477868433
@@ -290,8 +290,8 @@ Transform:
   m_GameObject: {fileID: 477868433}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0347, y: 0.022, z: 0}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalPosition: {x: -0.027, y: -0.251, z: 0}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 400032480}
