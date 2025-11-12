@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.3.1">
+        <ModelTarget name="Eous" targetId="3aec8f38d3844a78935a16bf8f9cd7ff" version="14.0" toolVersion="v7.3.1" bbox="-0.0529971 -0.0204543 -0.0123523 -0.0214927 0.0219046 0.00969559" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Eous" assemblyId="0253b3b8e049473c827d3dc4b5689dfb">
+        <Part name="Eous" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
