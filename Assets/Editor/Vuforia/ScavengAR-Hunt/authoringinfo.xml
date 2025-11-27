@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.3.1">
+        <ModelTarget name="ModdedStick" targetId="e6ce675901444355b9d3c2083341004d" bbox="-0.0800801 -0.2775 -0.0337904 0.0697252 0.2813 0.0884248" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="Eous_Geo" targetId="13ecd2e254b44256b94440da8836b896" bbox="-0.0519823 -0.0691671 -0.036379 0.0519823 0.0706174 0.036379" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="GoPro_Geo" targetId="9322af4e0ad8429fb5e5b0f7778528d6" bbox="-0.0308506 -0.0225823 -0.0163349 0.0308506 0.0226973 0.0163349" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="m185_Geo" targetId="a800bf8ae6904b0499b4ca1342a3eda8" bbox="-0.0503979 -7.07805e-08 -0.0305482 0.0503978 0.0395992 0.0305482" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="Toy_Geo" targetId="ee319cb1ff4d4afbb281ba243f6bd1e6" bbox="-0.0438639 -0.000646561 -0.038454 0.058691 0.139242 0.038454" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="tvRemote_Geo" targetId="44e250eb8ce544d7860be532fbb62aa7" bbox="-0.0703208 -0.0107914 -0.0239196 0.0703208 0.0107914 0.0239196" version="14.0" toolVersion="v7.3.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="ModdedStick" assemblyId="c1c9673decd14891ba11ce29da5387e1">
+        <Part name="ModdedStick" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Eous_Geo" assemblyId="7f221c401e7245d8904581639ee9a09b">
+        <Part name="Eous_Geo" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="GoPro_Geo" assemblyId="2d60c57f8667490392a2d7e6b199cd3b">
+        <Part name="GoPro_Geo" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="m185_Geo" assemblyId="67d5bd4a5841406c8bb61ca54da89c53">
+        <Part name="m185_Geo" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Toy_Geo" assemblyId="9915a30c384645f9b1f4f56c0aa2338e">
+        <Part name="Toy_Geo" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="tvRemote_Geo" assemblyId="1c7ccf633d1b4d58a2e5ae846190216e">
+        <Part name="tvRemote_Geo" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="224cefe9ff9e43a6b203a5ae8a9c881b" name="ScavengAR-Hunt" toolVersion="v7.3.1" version="36.0" />
+</QCARInfo>

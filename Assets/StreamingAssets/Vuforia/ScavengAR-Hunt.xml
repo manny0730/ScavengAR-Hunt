@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="ModdedStick" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Eous_Geo" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="GoPro_Geo" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="m185_Geo" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Toy_Geo" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="tvRemote_Geo" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+    </Tracking>
+    <Assembly name="ModdedStick" assemblyId="c1c9673decd14891ba11ce29da5387e1">
+        <Part name="ModdedStick" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Eous_Geo" assemblyId="7f221c401e7245d8904581639ee9a09b">
+        <Part name="Eous_Geo" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="GoPro_Geo" assemblyId="2d60c57f8667490392a2d7e6b199cd3b">
+        <Part name="GoPro_Geo" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="m185_Geo" assemblyId="67d5bd4a5841406c8bb61ca54da89c53">
+        <Part name="m185_Geo" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Toy_Geo" assemblyId="9915a30c384645f9b1f4f56c0aa2338e">
+        <Part name="Toy_Geo" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="tvRemote_Geo" assemblyId="1c7ccf633d1b4d58a2e5ae846190216e">
+        <Part name="tvRemote_Geo" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="ScavengAR-Hunt"> </ModelTargetDatabase>
+</QCARConfig>

@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class BossBattleManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class BossBattleManager : MonoBehaviour
     [SerializeField] private GameObject phase4UIContainer;
     [SerializeField] private GameObject phase4UIWinInstructions;
     [SerializeField] private GameObject phase4UILoseInstructions;
+
+    [Header("End Game Events")]
+    [SerializeField] UnityEvent OnVictory;
+    [SerializeField] UnityEvent OnDefeat;
 
     [Header("Vuforia References")]
     [SerializeField] private GameObject bossTargetObject;
@@ -202,7 +207,7 @@ public class BossBattleManager : MonoBehaviour
         bullet.GetComponent<BattleProjectile>().Initialize(dirToPlayer, projectileSpeed, true, this);
     }
 
-    private void PlayerShoot()
+    public void PlayerShoot()
     {
         //Don't shoot if the boss is gone
         if(!isBossVisible)
@@ -270,6 +275,19 @@ public class BossBattleManager : MonoBehaviour
         if (bossTargetObject != null)
         {
             bossTargetObject.SetActive(false);
+        }
+        if (phase4UIContainer != null)
+        {
+            phase4UIContainer.SetActive(false);
+        }
+
+        if (playerWon)
+        {
+            OnVictory.Invoke();
+        }
+        else
+        {
+            OnDefeat.Invoke();
         }
     }
 }
