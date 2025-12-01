@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TriggerVolumeHelper : MonoBehaviour
 {
     [Header("ScavengAR Manager Reference")]
     [SerializeField] private ScavengARManager manager;
+
+    [Header("Events")]
+    public UnityEvent onTriggerEntered;
 
     private Collider selfCollider;
     void Start()
@@ -17,5 +21,7 @@ public class TriggerVolumeHelper : MonoBehaviour
         {
             manager.TriggerWasEntered(selfCollider);
         }
+
+        onTriggerEntered.Invoke();
     }
 }
