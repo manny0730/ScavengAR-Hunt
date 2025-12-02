@@ -5267,6 +5267,7 @@ MonoBehaviour:
   baseAttackInterval: 3
   baseProjectileSpeed: 2
   baseHitsToWin: 5
+  playerStartingHealth: 10
   bossHealthText: {fileID: 1633892740}
   playerHealthText: {fileID: 1309894251}
   playerAttackButton: {fileID: 1347151243}
@@ -6140,7 +6141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1229eacf0df4f384798df8f4319b407c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 120
+  timeLimit: 180
   timerText: {fileID: 1880987392}
   clueChecklistTexts:
   - {fileID: 1699160936}

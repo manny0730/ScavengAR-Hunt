@@ -26,6 +26,7 @@ public class BossBattleManager : MonoBehaviour
     [SerializeField] private float baseAttackInterval = 3f;
     [SerializeField] private float baseProjectileSpeed = 2f;
     [SerializeField] private int baseHitsToWin = 5;
+    [SerializeField] private int playerStartingHealth = 10;
 
     [Header("UI References")]
     [SerializeField] private TMP_Text bossHealthText;
@@ -118,7 +119,7 @@ public class BossBattleManager : MonoBehaviour
             }
         }
 
-        maxPlayerHealth = baseHitsToWin;
+        maxPlayerHealth = playerStartingHealth;
 
         if(challengeButton != null)
         {
