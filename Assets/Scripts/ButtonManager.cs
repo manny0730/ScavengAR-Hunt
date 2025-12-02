@@ -16,6 +16,10 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(0);
     }
+    public void RestartLevel()
+    {        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
     public void QuitGame()
     {
